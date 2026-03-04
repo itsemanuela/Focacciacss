@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+h1  {
+  font-family: "Sansita", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48;
+}
+
+h2  {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+body, section {
+  font-family: "Besley", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+
+ #shadow {
+-webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+width: 500px;
+height: 50vh;
+border-radius: 0.8em;
+}
+    
+ol li {
+    font-weight: bolder;
+  }
+    
+  #logosimply {
+    width: 15%;
+    height: 15%;
+  }
+
+  ul, ol {
+    list-style-position: inside;
+  }
+  
+  #trasparentfont {
+    background-color: transparent;
+    opacity: 50%;
+  }
+ 
+  span {
+    color: rgb(51, 51, 221);
+    font-weight: bold;
+  }
+  
+  .redtext {
+    color: red;
+  }
+  hr {
+    color: rgb(220, 72, 31);
+  }
